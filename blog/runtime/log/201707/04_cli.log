@@ -1,0 +1,130 @@
+[ 2017-07-04T09:55:57+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-04T09:55:57+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-04T09:55:57+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-04T09:55:57+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-04T09:55:57+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-04T09:56:15+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-04T09:56:15+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000904s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-04T09:56:15+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001556s ]
+[ 2017-07-04T09:56:15+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000332s ]
+[ 2017-07-04T09:56:15+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-04T09:56:36+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-04T09:56:36+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-04T09:56:36+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-04T09:56:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-04T09:56:36+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-04T09:56:36+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-04T09:56:39+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-04T09:56:39+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-04T09:56:39+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.007131s ]
+[ 2017-07-04T09:56:39+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000308s ]
+[ 2017-07-04T09:56:39+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-04T09:58:06+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000449s ]
+[ 2017-07-04T09:58:06+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-04T09:59:34+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000424s ]
+[ 2017-07-04T09:59:34+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-04T10:01:03+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000473s ]
+[ 2017-07-04T10:01:03+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-04T10:02:31+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000419s ]
+[ 2017-07-04T10:02:31+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-04T10:04:00+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000317s ]
+[ 2017-07-04T10:04:00+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]

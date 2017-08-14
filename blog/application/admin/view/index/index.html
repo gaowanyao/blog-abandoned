@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Blog</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="#1 selling multi-purpose bootstrap admin theme sold in themeforest marketplace packed with angularjs, material design, rtl support with over thausands of templates and ui elements and plugins to power any type of web applications including saas and admin dashboards. Preview page of Theme #1 for blog listing page"
+        name="description" />
+    <meta content="" name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <link href="__STATIC__/assets/global/plugins/datatables/datatables.min.css" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGINS -->
+
+
+    <!-- BEGIN THEME GLOBAL STYLES -->
+    <link href="__STATIC__/assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="__STATIC__/assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME GLOBAL STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="__STATIC__/assets/pages/css/blog.min.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL STYLES -->
+    <!-- BEGIN THEME LAYOUT STYLES -->
+    <link href="__STATIC__/assets/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="__STATIC__/assets/layouts/layout/css/custom.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME LAYOUT STYLES -->
+    <link rel="shortcut icon" href="__STATIC__/gcan.ico" /> </head>
+
+
+
+
+</head>
+<!-- END HEAD -->
+
+<body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
+    <div class="page-wrapper">
+
+        {include file="Public/header"/}
+        <!-- END HEADER & CONTENT DIVIDER -->
+        <!-- BEGIN CONTAINER -->
+        <div class="page-container">
+
+            {include file="Public/left"/}
+            <!-- BEGIN CONTENT -->
+            <div class="page-content-wrapper">
+                <!-- BEGIN CONTENT BODY -->
+                <div class="page-content">
+                    <!-- BEGIN PAGE HEADER-->
+                    <!-- BEGIN THEME PANEL -->
+                    <!-- END THEME PANEL -->
+                    <!-- BEGIN PAGE BAR -->
+                    <div class="page-bar">
+                        <ul class="page-breadcrumb">
+                            <li>
+                                <a href="/blog/public/admin/index/index">文章管理</a>
+                                <i class="fa fa-circle"></i>
+                            </li>
+                            <li>
+                                <a href="#">文章列表</a>
+                                <!--<i class="fa fa-circle"></i>-->
+                            </li>
+                            <!--<li>-->
+                                <!--<span>Datatables</span>-->
+                            <!--</li>-->
+                        </ul>
+
+                    </div>
+
+                    <br/>
+                    <!-- END PAGE BAR -->
+                    <!-- BEGIN PAGE TITLE-->
+                    <!--<h1 class="page-title"> 文章管理-->
+                        <!--<small>文章列表</small>-->
+                    <!--</h1>-->
+                    <!-- END PAGE TITLE-->
+                    <!-- END PAGE HEADER-->
+                    <div class="m-heading-1 border-green m-bordered">
+                        <h3>文章管理表格</h3>
+                        <p>
+                            可以使用表格进行打印，复制表格数据，保存为PDF、EXCEL、CSV，以及可以想看某单一或其他字段内容
+                            <br>表格具有分页功能，同时可以通过搜索框查询你想要的数据。
+                        </p>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                            <div class="portlet  light  bordered" style="position: relative;">
+                                <div class="portlet-title " >
+                                    <div class="caption font-dark">
+                                        <i class="icon-settings font-dark"></i>
+                                        <span class="caption-subject bold uppercase">Buttons</span>
+                                    </div>
+
+                                    <div  class="tools" >
+
+                                    </div>
+                                    <button style="position: absolute;right:383px;margin-top: 2px;" type="button" onclick="window.location.href='add_article';" class="dt-button  btn yellow btn-outline">新增文章</button>
+
+                                </div>
+                                <div class="portlet-body">
+
+
+
+                                    <table class="table table-striped table-bordered table-hover" id="sample_1">
+                                        <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>标题</th>
+                                            <th>作者</th>
+                                            <th>标签</th>
+                                            <th>状态</th>
+                                            <th>创建时间</th>
+                                            <th>操作</th>
+                                        </tr>
+                                        </thead>
+                                        <!--<tfoot>-->
+                                        <!--<tr>-->
+                                            <!--<th>Name</th>-->
+                                            <!--<th>Position</th>-->
+                                            <!--<th>Office</th>-->
+                                            <!--<th>Age</th>-->
+                                            <!--<th>Start date</th>-->
+                                            <!--<th>Salary</th>-->
+                                        <!--</tr>-->
+                                        <!--</tfoot>-->
+                                        <tbody>
+                                        {volist name="article_list" id="vo"}
+                                            <tr>
+                                                <td>{$vo.id}</td>
+                                                <td>{$vo.title}</td>
+                                                <td>{$vo.author}</td>
+                                                <td>
+                                                    <?php
+
+                                                $tag = $vo['tag'];
+                                                $arr = explode(",",$tag);
+
+                                                $str = "";
+                                                for($i=0;$i<count($arr);$i++){
+                                                    if($arr[$i] == ''){}else{
+                                                        $str .= "<span class='label label-info' >".$arr[$i]."</span>&nbsp;";
+                                                           }
+                                                       }
+                                                    echo $str;
+
+                                                    ?>
+
+                                                </td>
+                                                <td>
+                                                    <?php if($vo['released'] == 1){ echo "已发布"; }else{ echo "草稿";}?>
+                                                </td>
+                                                <td>{$vo.create_time}</td>
+                                                <td>
+                                                    <a href="javascript:;" onclick="window.location.href='update_article?id={$vo.id}';" class="btn green btn-xs">
+                                                        更改
+                                                    </a>
+
+                                                    <a href="javascript:;" onclick="window.location.href='release_article?id={$vo.id}&released={$vo.released}';" class="btn green btn-xs">
+                                                        <?php if($vo['released'] == 1){ echo "禁用"; }else{ echo "发布";}?>
+                                                    </a>
+
+                                                    <a href="javascript:;" onclick="window.location.href='delete_article?id={$vo.id}&time={$vo.content}';" class="btn green btn-xs">
+                                                        删除
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                        {/volist}
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- END EXAMPLE TABLE PORTLET-->
+                            <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                            <!-- END EXAMPLE TABLE PORTLET-->
+                        </div>
+                    </div>
+
+                </div>
+                <!-- END CONTENT BODY -->
+            </div>
+            <!-- END CONTENT -->
+
+
+            {include file="Public/quick_sidebar"/}
+
+        </div>
+        <!-- END CONTAINER -->
+
+        {include file="Public/footer"/}
+    </div>
+
+
+    {include file="Public/quick_nav"/}
+
+
+
+    <!--[if lt IE 9]>
+<script src="__STATIC__/assets/global/plugins/respond.min.js"></script>
+<script src="__STATIC__/assets/global/plugins/excanvas.min.js"></script>
+<script src="__STATIC__/assets/global/plugins/ie8.fix.min.js"></script>
+<![endif]-->
+    <!-- BEGIN CORE PLUGINS -->
+    <script src="__STATIC__/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN THEME GLOBAL SCRIPTS -->
+    <script src="__STATIC__/assets/global/scripts/app.min.js" type="text/javascript"></script>
+    <!-- END THEME GLOBAL SCRIPTS -->
+    <!-- BEGIN THEME LAYOUT SCRIPTS -->
+    <script src="__STATIC__/assets/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+    <!-- END THEME LAYOUT SCRIPTS -->
+
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="__STATIC__/assets/global/scripts/datatable.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/global/plugins/datatables/datatables.min.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" type="text/javascript"></script>
+    <script src="__STATIC__/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN THEME GLOBAL SCRIPTS -->
+    <!-- END THEME GLOBAL SCRIPTS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <!--<script src="__STATIC__/assets/pages/scripts/table-datatables-buttons.min.js" type="text/javascript"></script>-->
+    <!-- END PAGE LEVEL SCRIPTS -->
+
+
+<script>
+
+
+    var TableDatatablesButtons = function () {
+
+        var initTable1 = function () {
+            var table = $('#sample_1');
+
+            var oTable = table.dataTable({
+
+                // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                "language": {
+                    "aria": {
+                        "sortAscending": ": activate to sort column ascending",
+                        "sortDescending": ": activate to sort column descending"
+                    },
+                    "emptyTable": "No data available in table",
+                    "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                    "infoEmpty": "No entries found",
+                    "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                    "lengthMenu": "_MENU_ entries",
+                    "search": "Search:",
+                    "zeroRecords": "No matching records found"
+                },
+
+                // Or you can use remote translation file
+                //"language": {
+                //   url: '//cdn.datatables.net/plug-ins/3cfcc339e89/i18n/Portuguese.json'
+                //},
+
+
+                buttons: [
+                    { extend: 'print', className: 'btn dark btn-outline' },
+                    { extend: 'copy', className: 'btn red btn-outline' },
+                    { extend: 'pdf', className: 'btn green btn-outline' },
+                    { extend: 'excel', className: 'btn yellow btn-outline ' },
+                    { extend: 'csv', className: 'btn purple btn-outline ' },
+                    { extend: 'colvis', className: 'btn dark btn-outline', text: 'Columns'}
+                ],
+
+                // setup responsive extension: http://datatables.net/extensions/responsive/
+                responsive: true,
+
+                //"ordering": false, disable column ordering
+                //"paging": false, disable pagination
+
+                "order": [
+                    [5, 'desc']
+                ],
+
+                "lengthMenu": [
+                    [5, 10, 15, 20, -1],
+                    [5, 10, 15, 20, "All"] // change per page values here
+                ],
+                // set the initial value
+                "pageLength": 10,
+
+                "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                // So when dropdowns used the scrollable div should be removed.
+                //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+            });
+        }
+
+        var initTable2 = function () {
+            var table = $('#sample_2');
+
+            var oTable = table.dataTable({
+
+                // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                "language": {
+                    "aria": {
+                        "sortAscending": ": activate to sort column ascending",
+                        "sortDescending": ": activate to sort column descending"
+                    },
+                    "emptyTable": "No data available in table",
+                    "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                    "infoEmpty": "No entries found",
+                    "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                    "lengthMenu": "_MENU_ entries",
+                    "search": "Search:",
+                    "zeroRecords": "No matching records found"
+                },
+
+                // Or you can use remote translation file
+                //"language": {
+                //   url: '//cdn.datatables.net/plug-ins/3cfcc339e89/i18n/Portuguese.json'
+                //},
+
+                buttons: [
+                    { extend: 'print', className: 'btn default' },
+                    { extend: 'copy', className: 'btn default' },
+                    { extend: 'pdf', className: 'btn default' },
+                    { extend: 'excel', className: 'btn default' },
+                    { extend: 'csv', className: 'btn default' },
+                    {
+                        text: 'Reload',
+                        className: 'btn default',
+                        action: function ( e, dt, node, config ) {
+                            //dt.ajax.reload();
+                            alert('Custom Button');
+                        }
+                    }
+                ],
+
+                "order": [
+                    [0, 'asc']
+                ],
+
+                "lengthMenu": [
+                    [5, 10, 15, 20, -1],
+                    [5, 10, 15, 20, "All"] // change per page values here
+                ],
+                // set the initial value
+                "pageLength": 10,
+
+                "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                // So when dropdowns used the scrollable div should be removed.
+                //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+            });
+        }
+
+        var initTable3 = function () {
+            var table = $('#sample_3');
+
+            var oTable = table.dataTable({
+
+                // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                "language": {
+                    "aria": {
+                        "sortAscending": ": activate to sort column ascending",
+                        "sortDescending": ": activate to sort column descending"
+                    },
+                    "emptyTable": "No data available in table",
+                    "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                    "infoEmpty": "No entries found",
+                    "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                    "lengthMenu": "_MENU_ entries",
+                    "search": "Search:",
+                    "zeroRecords": "No matching records found"
+                },
+
+                // Or you can use remote translation file
+                //"language": {
+                //   url: '//cdn.datatables.net/plug-ins/3cfcc339e89/i18n/Portuguese.json'
+                //},
+
+                buttons: [
+                    { extend: 'print', className: 'btn dark btn-outline' },
+                    { extend: 'copy', className: 'btn red btn-outline' },
+                    { extend: 'pdf', className: 'btn green btn-outline' },
+                    { extend: 'excel', className: 'btn yellow btn-outline ' },
+                    { extend: 'csv', className: 'btn purple btn-outline ' },
+                    { extend: 'colvis', className: 'btn dark btn-outline', text: 'Columns'}
+                ],
+
+                // setup responsive extension: http://datatables.net/extensions/responsive/
+                responsive: true,
+
+                //"ordering": false, disable column ordering
+                //"paging": false, disable pagination
+
+                "order": [
+                    [0, 'asc']
+                ],
+
+                "lengthMenu": [
+                    [5, 10, 15, 20, -1],
+                    [5, 10, 15, 20, "All"] // change per page values here
+                ],
+                // set the initial value
+                "pageLength": 10,
+
+                //"dom": "<'row' <'col-md-12'>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                // So when dropdowns used the scrollable div should be removed.
+                //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+            });
+
+            // handle datatable custom tools
+            $('#sample_3_tools > li > a.tool-action').on('click', function() {
+                var action = $(this).attr('data-action');
+                oTable.DataTable().button(action).trigger();
+            });
+        }
+
+        var initAjaxDatatables = function () {
+
+            //init date pickers
+            $('.date-picker').datepicker({
+                rtl: App.isRTL(),
+                autoclose: true
+            });
+
+            var grid = new Datatable();
+
+            grid.init({
+                src: $("#datatable_ajax"),
+                onSuccess: function (grid, response) {
+                    // grid:        grid object
+                    // response:    json object of server side ajax response
+                    // execute some code after table records loaded
+                },
+                onError: function (grid) {
+                    // execute some code on network or other general error
+                },
+                onDataLoad: function(grid) {
+                    // execute some code on ajax data load
+                },
+                loadingMessage: 'Loading...',
+                dataTable: { // here you can define a typical datatable settings from http://datatables.net/usage/options
+
+                    // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                    // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/scripts/datatable.js).
+                    // So when dropdowns used the scrollable div should be removed.
+
+                    //"dom": "<'row'<'col-md-8 col-sm-12'pli><'col-md-4 col-sm-12'<'table-group-actions pull-right'>>r>t<'row'<'col-md-8 col-sm-12'pli><'col-md-4 col-sm-12'>>",
+
+                    "bStateSave": true, // save datatable state(pagination, sort, etc) in cookie.
+
+                    "lengthMenu": [
+                        [10, 20, 50, 100, 150, -1],
+                        [10, 20, 50, 100, 150, "All"] // change per page values here
+                    ],
+                    "pageLength": 10, // default record count per page
+                    "ajax": {
+                        "url": "../demo/table_ajax.php", // ajax source
+                    },
+                    "order": [
+                        [1, "asc"]
+                    ],// set first column as a default sort by asc
+
+                    // Or you can use remote translation file
+                    //"language": {
+                    //   url: '//cdn.datatables.net/plug-ins/3cfcc339e89/i18n/Portuguese.json'
+                    //},
+
+                    buttons: [
+                        { extend: 'print', className: 'btn default' },
+                        { extend: 'copy', className: 'btn default' },
+                        { extend: 'pdf', className: 'btn default' },
+                        { extend: 'excel', className: 'btn default' },
+                        { extend: 'csv', className: 'btn default' },
+                        {
+                            text: 'Reload',
+                            className: 'btn default',
+                            action: function ( e, dt, node, config ) {
+                                dt.ajax.reload();
+                                alert('Datatable reloaded!');
+                            }
+                        }
+                    ],
+
+                }
+            });
+
+            // handle group actionsubmit button click
+            grid.getTableWrapper().on('click', '.table-group-action-submit', function (e) {
+                e.preventDefault();
+                var action = $(".table-group-action-input", grid.getTableWrapper());
+                if (action.val() != "" && grid.getSelectedRowsCount() > 0) {
+                    grid.setAjaxParam("customActionType", "group_action");
+                    grid.setAjaxParam("customActionName", action.val());
+                    grid.setAjaxParam("id", grid.getSelectedRows());
+                    grid.getDataTable().ajax.reload();
+                    grid.clearAjaxParams();
+                } else if (action.val() == "") {
+                    App.alert({
+                        type: 'danger',
+                        icon: 'warning',
+                        message: 'Please select an action',
+                        container: grid.getTableWrapper(),
+                        place: 'prepend'
+                    });
+                } else if (grid.getSelectedRowsCount() === 0) {
+                    App.alert({
+                        type: 'danger',
+                        icon: 'warning',
+                        message: 'No record selected',
+                        container: grid.getTableWrapper(),
+                        place: 'prepend'
+                    });
+                }
+            });
+
+            //grid.setAjaxParam("customActionType", "group_action");
+            //grid.getDataTable().ajax.reload();
+            //grid.clearAjaxParams();
+
+            // handle datatable custom tools
+            $('#datatable_ajax_tools > li > a.tool-action').on('click', function() {
+                var action = $(this).attr('data-action');
+                grid.getDataTable().button(action).trigger();
+            });
+        }
+
+        return {
+
+            //main function to initiate the module
+            init: function () {
+
+                if (!jQuery().dataTable) {
+                    return;
+                }
+
+                initTable1();
+                initTable2();
+                initTable3();
+
+                initAjaxDatatables();
+            }
+
+        };
+
+    }();
+
+    jQuery(document).ready(function() {
+        TableDatatablesButtons.init();
+    });
+
+
+</script>
+
+
+</body>
+
+</html>

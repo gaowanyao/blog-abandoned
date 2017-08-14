@@ -1,0 +1,865 @@
+---------------------------------------------------------------
+[ 2017-08-11T06:29:57+08:00 ] 172.17.48.222 159.203.160.38 GET /blog/public/
+[ info ] www.gcan.top/blog/public/ [运行时间：0.022334s][吞吐率：44.78req/s] [内存消耗：2,147.16kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-language' => 'en-gb,en;q=0.5',
+  'accept' => 'text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5',
+  'accept-encoding' => 'identity',
+  'user-agent' => 'Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)',
+  'accept-charset' => 'ISO-8859-1,utf-8;q=0.7,*;q=0.7',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000361s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000366s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000181s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000253s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-11T09:59:05+08:00 ] 172.17.48.222 60.29.18.51 GET /blog/public/
+[ info ] www.gcan.top/blog/public/ [运行时间：0.022620s][吞吐率：44.21req/s] [内存消耗：2,147.92kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1502416714; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1502416714',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'referer' => 'http://www.gcan.top/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.3176.400 QQBrowser/9.6.11541.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000349s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000209s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000272s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-11T09:59:16+08:00 ] 172.17.48.222 60.29.18.51 GET /blog/public/index/index/search?search=phpstorm
+[ info ] www.gcan.top/blog/public/index/index/search?search=phpstorm [运行时间：0.022745s][吞吐率：43.97req/s] [内存消耗：2,152.38kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1502416714; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1502416714; PHPSESSID=hcepvnbp9o06ih89kkstqf74gg',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'referer' => 'http://www.gcan.top/blog/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.3176.400 QQBrowser/9.6.11541.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'search' => 'phpstorm',
+)
+[ info ] [ RUN ] app\index\controller\Index->search[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/search.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+  6 => 'search',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000369s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000203s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  ( `title` LIKE '%phpstorm%' OR `author` LIKE '%phpstorm%' OR `tag` LIKE '%phpstorm%' OR `create_time` LIKE '%phpstorm%' )  AND `released` = '1' LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 3.756737232208252,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  ( `title` LIKE '%phpstorm%' OR `author` LIKE '%phpstorm%' OR `tag` LIKE '%phpstorm%' OR `create_time` LIKE '%phpstorm%' )  AND `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000307s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 3.756737232208252,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  ( `title` LIKE :where_title OR `author` LIKE :where_author OR `tag` LIKE :where_tag OR `create_time` LIKE :where_create_time )  AND `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-11T09:59:21+08:00 ] 172.17.48.222 140.207.124.105 GET /blog/public/
+[ info ] www.gcan.top/blog/public/ [运行时间：0.024167s][吞吐率：41.38req/s] [内存消耗：2,147.22kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://www.gcan.top/blog/public',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2141.400 QQBrowser/9.5.10219.400',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000346s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000202s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000252s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-11T09:59:30+08:00 ] 172.17.48.222 101.226.33.202 GET /blog/public/
+[ info ] www.gcan.top/blog/public/ [运行时间：0.024357s][吞吐率：41.06req/s] [内存消耗：2,147.13kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000351s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000210s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000275s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-11T09:59:34+08:00 ] 172.17.48.222 101.226.33.239 GET /blog/public/
+[ info ] www.gcan.top/blog/public/ [运行时间：0.024091s][吞吐率：41.51req/s] [内存消耗：2,147.67kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1502416774; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1502416774',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => 'http://www.gcan.top/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000370s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000186s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000272s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-11T14:59:18+08:00 ] 172.17.48.222 140.205.205.4 GET /blog/public/
+[ info ] www.gcan.top/blog/public/ [运行时间：0.024571s][吞吐率：40.70req/s] [内存消耗：2,145.16kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.0.04506.30)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000366s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000373s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000193s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000266s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-11T16:10:22+08:00 ] 172.17.48.222 140.205.205.1 GET /blog/public/
+[ info ] www.gcan.top/blog/public/ [运行时间：0.024373s][吞吐率：41.03req/s] [内存消耗：2,144.98kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (X11; Linux i686; U;) Gecko/20070322 Kazehakase/0.4.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000367s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000203s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000262s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 31,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]

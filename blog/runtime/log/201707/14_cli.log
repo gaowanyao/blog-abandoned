@@ -1,0 +1,1841 @@
+[ 2017-07-14T09:12:33+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T09:12:33+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T09:12:33+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T09:12:33+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T09:12:33+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T09:12:41+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T09:12:41+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T09:12:41+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T09:12:41+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T09:12:41+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T09:12:45+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T09:12:45+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000819s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T09:12:45+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001123s ]
+[ 2017-07-14T09:12:45+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000288s ]
+[ 2017-07-14T09:12:45+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:12:49+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000457s ]
+[ 2017-07-14T09:12:49+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:13:02+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T09:13:02+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T09:13:02+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T09:13:02+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T09:13:02+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T09:13:02+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T09:13:02+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T09:13:02+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T09:13:02+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001094s ]
+[ 2017-07-14T09:13:02+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000329s ]
+[ 2017-07-14T09:13:02+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:14:29+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000428s ]
+[ 2017-07-14T09:14:29+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:15:58+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000427s ]
+[ 2017-07-14T09:15:58+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:17:26+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000497s ]
+[ 2017-07-14T09:17:26+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:18:52+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000469s ]
+[ 2017-07-14T09:18:52+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:20:19+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000408s ]
+[ 2017-07-14T09:20:19+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:21:47+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000429s ]
+[ 2017-07-14T09:21:47+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:23:15+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000389s ]
+[ 2017-07-14T09:23:15+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:24:44+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000374s ]
+[ 2017-07-14T09:24:44+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:26:13+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000346s ]
+[ 2017-07-14T09:26:13+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:31:37+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000357s ]
+[ 2017-07-14T09:31:37+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:32:32+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000377s ]
+[ 2017-07-14T09:32:32+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:34:00+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000441s ]
+[ 2017-07-14T09:34:00+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:35:28+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000495s ]
+[ 2017-07-14T09:35:28+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:36:55+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000420s ]
+[ 2017-07-14T09:36:55+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:38:23+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000473s ]
+[ 2017-07-14T09:38:23+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:39:52+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000362s ]
+[ 2017-07-14T09:39:52+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:57:54+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000447s ]
+[ 2017-07-14T09:57:54+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T09:59:20+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000409s ]
+[ 2017-07-14T09:59:20+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:00:19+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000388s ]
+[ 2017-07-14T10:00:19+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:01:00+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000371s ]
+[ 2017-07-14T10:01:00+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:01:23+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000488s ]
+[ 2017-07-14T10:01:23+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:01:24+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000420s ]
+[ 2017-07-14T10:01:24+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:01:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000446s ]
+[ 2017-07-14T10:01:57+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:03:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000390s ]
+[ 2017-07-14T10:03:30+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:04:53+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T10:04:53+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T10:04:53+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T10:04:53+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T10:04:53+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T10:04:53+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T10:04:54+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T10:04:54+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006693s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T10:04:54+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001190s ]
+[ 2017-07-14T10:04:54+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000388s ]
+[ 2017-07-14T10:04:54+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:04:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000431s ]
+[ 2017-07-14T10:04:57+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:05:15+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T10:05:15+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T10:05:15+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T10:05:15+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T10:05:15+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T10:05:15+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T10:05:15+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T10:05:15+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T10:05:15+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001090s ]
+[ 2017-07-14T10:05:15+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000309s ]
+[ 2017-07-14T10:05:15+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:05:18+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000425s ]
+[ 2017-07-14T10:05:18+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:08:08+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T10:08:08+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T10:08:08+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T10:08:08+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T10:08:08+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T10:08:08+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T10:08:08+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T10:08:08+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T10:08:08+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001233s ]
+[ 2017-07-14T10:08:08+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000391s ]
+[ 2017-07-14T10:08:08+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:08:13+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000413s ]
+[ 2017-07-14T10:08:13+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:11:05+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000370s ]
+[ 2017-07-14T10:11:05+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:12:33+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000385s ]
+[ 2017-07-14T10:12:33+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:13:19+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000409s ]
+[ 2017-07-14T10:13:19+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:13:26+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000488s ]
+[ 2017-07-14T10:13:26+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:14:38+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000457s ]
+[ 2017-07-14T10:14:38+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:15:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000373s ]
+[ 2017-07-14T10:15:36+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:16:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000426s ]
+[ 2017-07-14T10:16:30+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:16:39+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000397s ]
+[ 2017-07-14T10:16:39+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:22:25+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000441s ]
+[ 2017-07-14T10:22:25+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:22:48+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000398s ]
+[ 2017-07-14T10:22:48+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:28:33+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.001180s ]
+[ 2017-07-14T10:28:33+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:31:46+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T10:31:46+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T10:31:46+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T10:31:46+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T10:31:46+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T10:31:46+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T10:31:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T10:31:46+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T10:31:46+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001219s ]
+[ 2017-07-14T10:31:46+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000338s ]
+[ 2017-07-14T10:31:46+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:31:50+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000433s ]
+[ 2017-07-14T10:31:50+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:32:41+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T10:32:41+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T10:32:41+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T10:32:41+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T10:32:41+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T10:32:41+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T10:32:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T10:32:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000571s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T10:32:41+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001075s ]
+[ 2017-07-14T10:32:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000351s ]
+[ 2017-07-14T10:32:41+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:32:44+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000401s ]
+[ 2017-07-14T10:32:44+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:36:19+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T10:36:19+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T10:36:19+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T10:36:19+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T10:36:19+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T10:36:19+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T10:36:19+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T10:36:19+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T10:36:19+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001130s ]
+[ 2017-07-14T10:36:19+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000294s ]
+[ 2017-07-14T10:36:19+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:36:22+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000440s ]
+[ 2017-07-14T10:36:22+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:36:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000374s ]
+[ 2017-07-14T10:36:36+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:37:15+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000396s ]
+[ 2017-07-14T10:37:15+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:38:02+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T10:38:02+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T10:38:02+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T10:38:02+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T10:38:02+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T10:38:02+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T10:38:02+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T10:38:02+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006424s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T10:38:02+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001319s ]
+[ 2017-07-14T10:38:02+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000348s ]
+[ 2017-07-14T10:38:02+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:56:16+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000374s ]
+[ 2017-07-14T10:56:16+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:56:25+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T10:56:25+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T10:56:25+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T10:56:25+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T10:56:25+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T10:56:25+08:00 ][ error ] [64]main(): Failed opening required '/home/wwwroot/gcan.chinacloudapp.cn/blog/application/push/controller/../../vendor/autoload.php' (include_path='.:/usr/local/php/lib/php')[/home/wwwroot/gcan.chinacloudapp.cn/blog/application/push/controller/Index.php:9]
+[ 2017-07-14T10:56:50+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T10:56:50+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T10:56:50+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T10:56:50+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T10:56:50+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T10:56:50+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T10:56:50+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T10:56:50+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000749s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T10:56:50+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.007060s ]
+[ 2017-07-14T10:56:50+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000430s ]
+[ 2017-07-14T10:56:50+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:56:55+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000378s ]
+[ 2017-07-14T10:56:55+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T10:57:42+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000884s ]
+[ 2017-07-14T10:57:42+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:00:00+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:00:00+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:00:00+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:00:00+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:00:00+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:00:00+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:00:00+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:00:00+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:00:00+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000996s ]
+[ 2017-07-14T11:00:00+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000353s ]
+[ 2017-07-14T11:00:00+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:00:04+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000459s ]
+[ 2017-07-14T11:00:04+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:01:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000431s ]
+[ 2017-07-14T11:01:30+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:02:02+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000512s ]
+[ 2017-07-14T11:02:02+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:02:08+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:02:08+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:02:08+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:02:08+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:02:08+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:02:08+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:02:12+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:02:12+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:02:12+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001221s ]
+[ 2017-07-14T11:02:12+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000328s ]
+[ 2017-07-14T11:02:12+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:03:19+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000489s ]
+[ 2017-07-14T11:03:19+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:03:40+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000405s ]
+[ 2017-07-14T11:03:40+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:03:59+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000398s ]
+[ 2017-07-14T11:03:59+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:04:29+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000413s ]
+[ 2017-07-14T11:04:29+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:07:32+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:07:32+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:07:32+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:07:32+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:07:32+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:07:32+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:07:32+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:07:32+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:07:32+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001116s ]
+[ 2017-07-14T11:07:32+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000395s ]
+[ 2017-07-14T11:07:32+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:07:49+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000425s ]
+[ 2017-07-14T11:07:49+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:07:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000454s ]
+[ 2017-07-14T11:07:57+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:10:52+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:10:52+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:10:52+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:10:52+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:10:52+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:10:52+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:10:53+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:10:53+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001052s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:10:53+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001289s ]
+[ 2017-07-14T11:10:53+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000336s ]
+[ 2017-07-14T11:10:53+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:11:02+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000390s ]
+[ 2017-07-14T11:11:02+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:12:16+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000480s ]
+[ 2017-07-14T11:12:16+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:12:29+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000377s ]
+[ 2017-07-14T11:12:29+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:14:07+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000398s ]
+[ 2017-07-14T11:14:07+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:17:03+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000495s ]
+[ 2017-07-14T11:17:03+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:20:25+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000450s ]
+[ 2017-07-14T11:20:25+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:20:53+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000403s ]
+[ 2017-07-14T11:20:53+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:20:59+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:20:59+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:20:59+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:20:59+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:20:59+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:20:59+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:20:59+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:20:59+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000492s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:20:59+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000992s ]
+[ 2017-07-14T11:20:59+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000295s ]
+[ 2017-07-14T11:20:59+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:22:55+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000440s ]
+[ 2017-07-14T11:22:55+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:24:03+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000392s ]
+[ 2017-07-14T11:24:03+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:24:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000432s ]
+[ 2017-07-14T11:24:36+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:25:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000389s ]
+[ 2017-07-14T11:25:14+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:25:25+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:25:25+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:25:25+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:25:25+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:25:25+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:25:25+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:25:25+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:25:25+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000488s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:25:25+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.006960s ]
+[ 2017-07-14T11:25:25+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000314s ]
+[ 2017-07-14T11:25:25+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:25:29+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000367s ]
+[ 2017-07-14T11:25:29+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:27:32+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:27:32+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:27:32+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:27:32+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:27:32+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:27:32+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:27:32+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:27:32+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006425s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:27:32+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001095s ]
+[ 2017-07-14T11:27:32+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000370s ]
+[ 2017-07-14T11:27:32+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:27:34+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000386s ]
+[ 2017-07-14T11:27:34+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:27:35+08:00 ][ error ] [1]Call to undefined function app\push\controller\emit()[/home/wwwroot/gcan.chinacloudapp.cn/blog/application/push/controller/Index.php:26]
+[ 2017-07-14T11:27:36+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:27:36+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000481s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:27:36+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001017s ]
+[ 2017-07-14T11:27:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000339s ]
+[ 2017-07-14T11:27:36+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:28:11+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:28:11+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:28:11+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:28:11+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:28:11+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:28:11+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:28:12+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:28:12+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:28:12+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001245s ]
+[ 2017-07-14T11:28:12+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000367s ]
+[ 2017-07-14T11:28:12+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:28:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000350s ]
+[ 2017-07-14T11:28:14+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:28:15+08:00 ][ error ] [1]Call to undefined function app\push\controller\emit()[/home/wwwroot/gcan.chinacloudapp.cn/blog/application/push/controller/Index.php:26]
+[ 2017-07-14T11:28:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:28:16+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:28:16+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001088s ]
+[ 2017-07-14T11:28:16+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000303s ]
+[ 2017-07-14T11:28:16+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:28:40+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000394s ]
+[ 2017-07-14T11:28:40+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:28:43+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:28:43+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:28:43+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:28:43+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:28:43+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:28:43+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:28:44+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:28:44+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:28:44+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000974s ]
+[ 2017-07-14T11:28:44+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000312s ]
+[ 2017-07-14T11:28:44+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:28:46+08:00 ][ error ] [1]Call to undefined function app\push\controller\emit()[/home/wwwroot/gcan.chinacloudapp.cn/blog/application/push/controller/Index.php:26]
+[ 2017-07-14T11:28:47+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:28:47+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:28:47+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001232s ]
+[ 2017-07-14T11:28:47+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000322s ]
+[ 2017-07-14T11:28:47+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:30:40+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:30:40+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:30:40+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:30:40+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:30:40+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:30:40+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:30:40+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:30:40+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006274s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:30:40+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001133s ]
+[ 2017-07-14T11:30:40+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000303s ]
+[ 2017-07-14T11:30:40+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:31:43+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:31:43+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:31:43+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:31:43+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:31:43+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:31:43+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:31:43+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:31:43+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000574s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:31:43+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001043s ]
+[ 2017-07-14T11:31:43+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000311s ]
+[ 2017-07-14T11:31:43+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:31:46+08:00 ][ error ] [1]Call to undefined function app\push\controller\emit()[/home/wwwroot/gcan.chinacloudapp.cn/blog/application/push/controller/Index.php:26]
+[ 2017-07-14T11:31:47+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:31:47+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000605s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:31:47+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001207s ]
+[ 2017-07-14T11:31:47+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000382s ]
+[ 2017-07-14T11:31:47+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:33:11+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:33:11+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:33:11+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:33:11+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:33:11+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:33:11+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:33:11+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:33:11+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000716s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:33:11+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001320s ]
+[ 2017-07-14T11:33:11+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000433s ]
+[ 2017-07-14T11:33:11+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:36:18+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T11:36:18+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T11:36:18+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T11:36:18+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T11:36:18+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T11:36:18+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T11:36:18+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T11:36:18+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000596s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T11:36:18+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001324s ]
+[ 2017-07-14T11:36:18+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000317s ]
+[ 2017-07-14T11:36:18+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T11:36:23+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000430s ]
+[ 2017-07-14T11:36:23+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T13:37:17+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-14T13:37:17+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-14T13:37:17+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-14T13:37:17+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-14T13:37:17+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-14T13:37:17+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-14T13:37:17+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-14T13:37:17+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000812s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-14T13:37:17+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001253s ]
+[ 2017-07-14T13:37:17+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000330s ]
+[ 2017-07-14T13:37:17+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 25,
+  'extra' => NULL,
+) ]
+[ 2017-07-14T14:11:43+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000449s ]
+[ 2017-07-14T14:11:43+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 28,
+  'extra' => NULL,
+) ]

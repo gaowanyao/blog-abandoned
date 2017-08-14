@@ -1,0 +1,1279 @@
+[ 2017-07-03T20:04:30+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:04:30+08:00 ][ info ] [ BIND ] 'push/Worker'
+[ 2017-07-03T20:04:30+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Worker',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:04:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:04:30+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:05:44+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:05:44+08:00 ][ info ] [ BIND ] 'push/Worker'
+[ 2017-07-03T20:05:44+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Worker',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:05:44+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:05:44+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:05:47+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:05:47+08:00 ][ info ] [ BIND ] 'push/Worker'
+[ 2017-07-03T20:05:47+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Worker',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:05:47+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:05:47+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:07:59+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:07:59+08:00 ][ info ] [ BIND ] 'push/Index'
+[ 2017-07-03T20:07:59+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:07:59+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:07:59+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:08:22+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:08:22+08:00 ][ info ] [ BIND ] 'push/Index'
+[ 2017-07-03T20:08:22+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:08:22+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:08:22+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:08:22+08:00 ][ error ] [1]Class 'app\push\controller\Server' not found[/home/wwwroot/gcan.chinacloudapp.cn/blog/application/push/controller/Index.php:9]
+[ 2017-07-03T20:08:42+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:08:42+08:00 ][ info ] [ BIND ] 'push/Index'
+[ 2017-07-03T20:08:42+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:08:42+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:08:42+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:09:20+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:09:20+08:00 ][ info ] [ BIND ] 'push/Index'
+[ 2017-07-03T20:09:20+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:09:20+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:09:20+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:09:30+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:09:30+08:00 ][ info ] [ BIND ] 'push/Index'
+[ 2017-07-03T20:09:30+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:09:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:09:30+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:10:18+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:10:18+08:00 ][ info ] [ BIND ] 'push/Index'
+[ 2017-07-03T20:10:18+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:10:18+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:10:18+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:10:18+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:10:18+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:10:18+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:10:53+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:10:53+08:00 ][ info ] [ BIND ] 'push/Index'
+[ 2017-07-03T20:10:53+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:10:53+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:10:53+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:10:53+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:10:53+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:10:53+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:11:23+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:11:23+08:00 ][ info ] [ BIND ] 'push/Index'
+[ 2017-07-03T20:11:23+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:11:23+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:11:23+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:11:23+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:11:23+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:11:23+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:12:50+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:12:50+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:12:50+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:11+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:11+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:11+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:26+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:26+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:31+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:13:31+08:00 ][ info ] [ BIND ] 'push/Index'
+[ 2017-07-03T20:13:31+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:13:31+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:13:31+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:13:31+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:13:31+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:13:31+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:13:31+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:31+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:31+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:53+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:53+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:13:53+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:14:00+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:14:00+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:14:00+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:14:21+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:14:21+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:14:44+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:14:44+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:14:44+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:14:57+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:14:57+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:15:57+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:15:57+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:16:18+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:16:18+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:16:41+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:16:41+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:17:04+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:17:35+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:17:35+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:17:38+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:17:38+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:17:59+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:17:59+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:18:23+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:18:23+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:18:23+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:18:49+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:18:49+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:18:49+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:19:14+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:19:14+08:00 ][ info ] [ BIND ] 'push/Index'
+[ 2017-07-03T20:19:14+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'start',
+  ),
+)
+[ 2017-07-03T20:19:14+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:19:14+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:19:14+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:19:14+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:19:14+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:19:16+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:19:16+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:19:40+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:19:40+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:20:03+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:20:03+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:20:26+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:20:26+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:20:47+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:20:47+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:06+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:21:06+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:21:06+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:21:06+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:21:06+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:21:06+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:21:06+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:21:06+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:21:07+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:07+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:07+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:31+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:31+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:31+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:33+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:21:33+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:21:33+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:21:33+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:21:33+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:21:33+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:21:33+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:21:33+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:21:37+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:37+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:37+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:40+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:21:40+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:21:40+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:21:40+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:21:40+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:21:40+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:21:40+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:21:40+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:21:43+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:43+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:21:43+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:22:08+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:22:08+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:22:08+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:22:14+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:22:14+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:22:14+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:22:14+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:22:14+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:22:14+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:22:58+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:22:58+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:22:58+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:22:58+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:22:58+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:22:58+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:22:58+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:22:58+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:22:58+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:22:58+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:22:58+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:22:58+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:22:58+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:22:58+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:23:05+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:23:05+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:23:05+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:23:05+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:23:05+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:23:07+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:23:07+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:23:07+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:23:07+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:23:07+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:23:07+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:23:07+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:23:07+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1389)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:23:09+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:23:09+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:23:34+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:23:34+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:23:59+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:23:59+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:23:59+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:24:24+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:24:24+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:24:24+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:24:49+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:24:49+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:25:16+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:25:16+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:25:16+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1605]
+[ 2017-07-03T20:25:33+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:25:33+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:25:33+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:25:33+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:25:33+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:25:33+08:00 ][ error ] [8]Undefined offset: 2[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:641]
+[ 2017-07-03T20:25:43+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:25:43+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:25:43+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:25:43+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:25:43+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:26:06+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:26:06+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:26:06+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:26:06+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:26:06+08:00 ][ info ] [ PARAM ] array (
+  'push' => 'Index',
+)
+[ 2017-07-03T20:26:06+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:658]
+[ 2017-07-03T20:26:06+08:00 ][ error ] [2]session_start(): Cannot send session cookie - headers already sent by (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1401)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:26:06+08:00 ][ error ] [2]session_start(): Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1401)[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Protocols/Http.php:590]
+[ 2017-07-03T20:26:10+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1617]
+[ 2017-07-03T20:26:10+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1617]
+[ 2017-07-03T20:26:36+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1617]
+[ 2017-07-03T20:26:36+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Resource temporarily unavailable[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1617]
+[ 2017-07-03T20:26:36+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1617]
+[ 2017-07-03T20:27:03+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1617]
+[ 2017-07-03T20:27:03+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1617]
+[ 2017-07-03T20:27:03+08:00 ][ error ] [2]stream_socket_accept(): accept failed: Connection timed out[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:1617]
+[ 2017-07-03T20:27:12+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:27:12+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:27:12+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:27:12+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:27:12+08:00 ][ info ] [ PARAM ] array (
+  'push' => 'Index',
+)
+[ 2017-07-03T20:27:12+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:27:17+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:27:17+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:27:17+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:27:17+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:27:17+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:27:17+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:28:16+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:28:16+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:28:16+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:28:16+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:28:16+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:28:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:28:16+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:28:16+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001127s ]
+[ 2017-07-03T20:28:16+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000292s ]
+[ 2017-07-03T20:28:16+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:28:16+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:28:56+08:00 ][ error ] [8]think\db\Connection::close(): send of 5 bytes failed with errno=32 Broken pipe[/home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/library/think/db/Connection.php:778]
+[ 2017-07-03T20:28:57+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:28:57+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:28:57+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:28:57+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:28:57+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:28:57+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:29:02+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:29:02+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:29:02+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:29:02+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:29:02+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:29:02+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:31:53+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:31:53+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:31:53+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:31:53+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:31:53+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:31:54+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:31:54+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000651s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:31:54+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001616s ]
+[ 2017-07-03T20:31:54+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000443s ]
+[ 2017-07-03T20:31:54+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:31:56+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000293s ]
+[ 2017-07-03T20:31:56+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:31:58+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000397s ]
+[ 2017-07-03T20:31:58+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:31:59+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000423s ]
+[ 2017-07-03T20:31:59+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:32:38+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000464s ]
+[ 2017-07-03T20:32:38+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:32:58+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:32:58+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:32:58+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:32:58+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:32:58+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:32:58+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:33:00+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:33:00+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:33:00+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001124s ]
+[ 2017-07-03T20:33:00+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000350s ]
+[ 2017-07-03T20:33:00+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:35:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000416s ]
+[ 2017-07-03T20:35:41+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:36:46+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:36:46+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:36:46+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:36:46+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:36:46+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:36:46+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:36:47+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:36:47+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000688s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:36:47+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001478s ]
+[ 2017-07-03T20:36:47+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000339s ]
+[ 2017-07-03T20:36:47+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:36:53+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000441s ]
+[ 2017-07-03T20:36:53+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:38:36+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:38:36+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:38:36+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:38:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:38:36+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:38:36+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:38:36+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:38:36+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:38:36+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001071s ]
+[ 2017-07-03T20:38:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000288s ]
+[ 2017-07-03T20:38:36+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:38:40+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000360s ]
+[ 2017-07-03T20:38:40+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:38:43+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000456s ]
+[ 2017-07-03T20:38:43+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:38:51+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:38:51+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:38:51+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:38:51+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:38:51+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:38:52+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:38:52+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:38:52+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001548s ]
+[ 2017-07-03T20:38:52+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000342s ]
+[ 2017-07-03T20:38:52+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:38:55+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000410s ]
+[ 2017-07-03T20:38:55+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:39:24+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:39:24+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:39:24+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:39:24+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:39:24+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:39:24+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:39:25+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:39:25+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:39:25+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001250s ]
+[ 2017-07-03T20:39:25+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000359s ]
+[ 2017-07-03T20:39:25+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:39:28+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000450s ]
+[ 2017-07-03T20:39:28+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:40:50+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:40:50+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:40:50+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:40:50+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:40:50+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:40:50+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:40:50+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:40:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:40:51+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001315s ]
+[ 2017-07-03T20:40:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000364s ]
+[ 2017-07-03T20:40:51+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:42:00+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000463s ]
+[ 2017-07-03T20:42:00+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:42:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000437s ]
+[ 2017-07-03T20:42:01+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:42:05+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:42:05+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:42:05+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:42:05+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:42:05+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:42:05+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:42:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:42:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:42:05+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001269s ]
+[ 2017-07-03T20:42:05+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000364s ]
+[ 2017-07-03T20:42:05+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:42:16+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000447s ]
+[ 2017-07-03T20:42:16+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:42:28+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000362s ]
+[ 2017-07-03T20:42:28+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:47:58+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:47:58+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:47:58+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:47:58+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:47:58+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:47:58+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:47:59+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:47:59+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000690s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:47:59+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001410s ]
+[ 2017-07-03T20:47:59+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000378s ]
+[ 2017-07-03T20:47:59+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:48:44+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:48:44+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:48:44+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:48:44+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:48:44+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:48:44+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:48:48+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:48:48+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:48:48+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001104s ]
+[ 2017-07-03T20:48:48+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000242s ]
+[ 2017-07-03T20:48:48+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:48:53+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000425s ]
+[ 2017-07-03T20:48:53+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:49:02+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000413s ]
+[ 2017-07-03T20:49:02+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:49:41+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:49:41+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:49:41+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:49:41+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:49:41+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:49:41+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:49:42+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:49:42+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000543s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:49:42+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001156s ]
+[ 2017-07-03T20:49:42+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000334s ]
+[ 2017-07-03T20:49:42+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:49:45+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000385s ]
+[ 2017-07-03T20:49:45+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:50:29+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:50:29+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:50:29+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:50:29+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:50:29+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:50:29+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:50:29+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:50:29+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:50:29+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001232s ]
+[ 2017-07-03T20:50:29+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000319s ]
+[ 2017-07-03T20:50:29+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:50:33+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000475s ]
+[ 2017-07-03T20:50:33+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:52:26+08:00 ][ info ] [ LANG ] /home/wwwroot/gcan.chinacloudapp.cn/blog/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-07-03T20:52:26+08:00 ][ info ] [ BIND ] 'push/Index/index'
+[ 2017-07-03T20:52:26+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'push',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ 2017-07-03T20:52:26+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-07-03T20:52:26+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-07-03T20:52:26+08:00 ][ error ] [2]file_get_contents(/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/../_home_wwwroot_gcan.chinacloudapp.cn_blog_server.php.pid): failed to open stream: No such file or directory[/home/wwwroot/gcan.chinacloudapp.cn/blog/vendor/workerman/workerman/Worker.php:646]
+[ 2017-07-03T20:52:27+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-07-03T20:52:27+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-07-03T20:52:27+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.001353s ]
+[ 2017-07-03T20:52:27+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000532s ]
+[ 2017-07-03T20:52:27+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]
+[ 2017-07-03T20:52:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `gcan_article` [ RunTime:0.000479s ]
+[ 2017-07-03T20:52:30+08:00 ][ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 9,
+  'extra' => NULL,
+) ]

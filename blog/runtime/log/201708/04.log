@@ -1,0 +1,4801 @@
+---------------------------------------------------------------
+[ 2017-08-04T09:05:37+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/
+[ info ] www.gcan.top/blog/public/ [运行时间：0.092936s][吞吐率：10.76req/s] [内存消耗：2,144.96kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000338s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000181s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000264s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-04T09:05:41+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/ecommerce_products.html
+[ info ] www.gcan.top/blog/public/ecommerce_products.html [运行时间：0.072039s][吞吐率：13.88req/s] [内存消耗：949.70kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ecommerce_products',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:05:44+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/page_general_contact.html
+[ info ] www.gcan.top/blog/public/page_general_contact.html [运行时间：0.009341s][吞吐率：107.05req/s] [内存消耗：949.73kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page_general_contact',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:05:46+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/page_general_about.html
+[ info ] www.gcan.top/blog/public/page_general_about.html [运行时间：0.009480s][吞吐率：105.49req/s] [内存消耗：949.70kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page_general_about',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:05:47+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/page_user_profile_1.html
+[ info ] www.gcan.top/blog/public/page_user_profile_1.html [运行时间：0.009406s][吞吐率：106.31req/s] [内存消耗：949.71kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page_user_profile_1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:05:49+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/index
+[ info ] www.gcan.top/blog/public/index [运行时间：0.022970s][吞吐率：43.53req/s] [内存消耗：2,146.98kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000400s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000356s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000213s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000264s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-04T09:05:52+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/app_todo.html
+[ info ] www.gcan.top/blog/public/app_todo.html [运行时间：0.010120s][吞吐率：98.82req/s] [内存消耗：949.63kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app_todo',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:05:53+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/app_todo_2.html
+[ info ] www.gcan.top/blog/public/app_todo_2.html [运行时间：0.009594s][吞吐率：104.23req/s] [内存消耗：949.65kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app_todo_2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:05:55+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/app_inbox.html
+[ info ] www.gcan.top/blog/public/app_inbox.html [运行时间：0.009478s][吞吐率：105.51req/s] [内存消耗：949.63kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app_inbox',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:05:57+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/index/index/signin
+[ info ] www.gcan.top/blog/public/index/index/signin [运行时间：0.011746s][吞吐率：85.14req/s] [内存消耗：1,195.68kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'signin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->signin[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/signin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:05:58+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/index/index/signup
+[ info ] www.gcan.top/blog/public/index/index/signup [运行时间：0.011847s][吞吐率：84.41req/s] [内存消耗：1,191.68kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'signup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->signup[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/signup.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:00+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/page_user_lock_1.html
+[ info ] www.gcan.top/blog/public/page_user_lock_1.html [运行时间：0.009380s][吞吐率：106.61req/s] [内存消耗：949.70kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page_user_lock_1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:01+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/index/index/logout
+[ info ] www.gcan.top/blog/public/index/index/logout [运行时间：0.042616s][吞吐率：23.47req/s] [内存消耗：1,236.70kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->logout[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:03+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/index.html
+[ info ] www.gcan.top/blog/public/index.html [运行时间：0.022888s][吞吐率：43.69req/s] [内存消耗：2,147.03kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000353s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000343s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000195s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000247s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-04T09:06:06+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/dashboard_2.html
+[ info ] www.gcan.top/blog/public/dashboard_2.html [运行时间：0.010514s][吞吐率：95.11req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dashboard_2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:08+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/dashboard_3.html
+[ info ] www.gcan.top/blog/public/dashboard_3.html [运行时间：0.009449s][吞吐率：105.83req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dashboard_3',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:09+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_controls.html
+[ info ] www.gcan.top/blog/public/form_controls.html [运行时间：0.010622s][吞吐率：94.14req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_controls',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:11+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_controls_md.html
+[ info ] www.gcan.top/blog/public/form_controls_md.html [运行时间：0.010717s][吞吐率：93.31req/s] [内存消耗：949.70kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_controls_md',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:13+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_validation.html
+[ info ] www.gcan.top/blog/public/form_validation.html [运行时间：0.009541s][吞吐率：104.81req/s] [内存消耗：949.68kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_validation',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:14+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_validation_states_md.html
+[ info ] www.gcan.top/blog/public/form_validation_states_md.html [运行时间：0.009630s][吞吐率：103.84req/s] [内存消耗：949.80kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_validation_states_md',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:16+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_validation_md.html
+[ info ] www.gcan.top/blog/public/form_validation_md.html [运行时间：0.009364s][吞吐率：106.79req/s] [内存消耗：949.70kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_validation_md',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:18+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_layouts.html
+[ info ] www.gcan.top/blog/public/form_layouts.html [运行时间：0.010582s][吞吐率：94.50req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_layouts',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:19+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_repeater.html
+[ info ] www.gcan.top/blog/public/form_repeater.html [运行时间：0.009706s][吞吐率：103.03req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_repeater',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:21+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_input_mask.html
+[ info ] www.gcan.top/blog/public/form_input_mask.html [运行时间：0.009358s][吞吐率：106.86req/s] [内存消耗：949.68kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_input_mask',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:23+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_editable.html
+[ info ] www.gcan.top/blog/public/form_editable.html [运行时间：0.009380s][吞吐率：106.61req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_editable',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:24+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_wizard.html
+[ info ] www.gcan.top/blog/public/form_wizard.html [运行时间：0.009366s][吞吐率：106.77req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_wizard',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:26+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_icheck.html
+[ info ] www.gcan.top/blog/public/form_icheck.html [运行时间：0.009533s][吞吐率：104.90req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_icheck',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:28+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_image_crop.html
+[ info ] www.gcan.top/blog/public/form_image_crop.html [运行时间：0.009836s][吞吐率：101.67req/s] [内存消耗：949.68kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_image_crop',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:29+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_fileupload.html
+[ info ] www.gcan.top/blog/public/form_fileupload.html [运行时间：0.009355s][吞吐率：106.90req/s] [内存消耗：949.68kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_fileupload',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:31+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/form_dropzone.html
+[ info ] www.gcan.top/blog/public/form_dropzone.html [运行时间：0.009434s][吞吐率：106.00req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'form_dropzone',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:33+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_static_basic.html
+[ info ] www.gcan.top/blog/public/table_static_basic.html [运行时间：0.009597s][吞吐率：104.20req/s] [内存消耗：949.70kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_static_basic',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:34+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_static_responsive.html
+[ info ] www.gcan.top/blog/public/table_static_responsive.html [运行时间：0.009371s][吞吐率：106.71req/s] [内存消耗：949.79kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_static_responsive',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:36+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_bootstrap.html
+[ info ] www.gcan.top/blog/public/table_bootstrap.html [运行时间：0.009412s][吞吐率：106.25req/s] [内存消耗：949.68kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_bootstrap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:38+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_datatables_managed.html
+[ info ] www.gcan.top/blog/public/table_datatables_managed.html [运行时间：0.009668s][吞吐率：103.43req/s] [内存消耗：949.80kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_datatables_managed',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:39+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_datatables_buttons.html
+[ info ] www.gcan.top/blog/public/table_datatables_buttons.html [运行时间：0.010493s][吞吐率：95.30req/s] [内存消耗：949.80kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_datatables_buttons',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:41+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_datatables_colreorder.html
+[ info ] www.gcan.top/blog/public/table_datatables_colreorder.html [运行时间：0.009574s][吞吐率：104.45req/s] [内存消耗：949.83kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_datatables_colreorder',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:44+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_datatables_rowreorder.html
+[ info ] www.gcan.top/blog/public/table_datatables_rowreorder.html [运行时间：0.010020s][吞吐率：99.80req/s] [内存消耗：949.83kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_datatables_rowreorder',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:47+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_datatables_scroller.html
+[ info ] www.gcan.top/blog/public/table_datatables_scroller.html [运行时间：0.009338s][吞吐率：107.09req/s] [内存消耗：949.80kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_datatables_scroller',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:49+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_datatables_fixedheader.html
+[ info ] www.gcan.top/blog/public/table_datatables_fixedheader.html [运行时间：0.009535s][吞吐率：104.88req/s] [内存消耗：949.84kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_datatables_fixedheader',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:51+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_datatables_responsive.html
+[ info ] www.gcan.top/blog/public/table_datatables_responsive.html [运行时间：0.009734s][吞吐率：102.73req/s] [内存消耗：949.83kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_datatables_responsive',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:53+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_datatables_editable.html
+[ info ] www.gcan.top/blog/public/table_datatables_editable.html [运行时间：0.009544s][吞吐率：104.78req/s] [内存消耗：949.80kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_datatables_editable',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:54+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/table_datatables_ajax.html
+[ info ] www.gcan.top/blog/public/table_datatables_ajax.html [运行时间：0.009393s][吞吐率：106.46req/s] [内存消耗：949.73kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'table_datatables_ajax',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:06:56+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/?p=
+[ info ] www.gcan.top/blog/public/?p= [运行时间：0.022968s][吞吐率：43.54req/s] [内存消耗：2,145.70kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'p' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000376s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000181s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000251s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-04T09:06:59+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/portlet_boxed.html
+[ info ] www.gcan.top/blog/public/portlet_boxed.html [运行时间：0.009512s][吞吐率：105.13req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portlet_boxed',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:01+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/ecommerce_products_edit.html
+[ info ] www.gcan.top/blog/public/ecommerce_products_edit.html [运行时间：0.010569s][吞吐率：94.62req/s] [内存消耗：949.79kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ecommerce_products_edit',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:03+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/page_user_profile_1_account.html
+[ info ] www.gcan.top/blog/public/page_user_profile_1_account.html [运行时间：0.010720s][吞吐率：93.28req/s] [内存消耗：949.83kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page_user_profile_1_account',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:04+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/page_user_profile_1_help.html
+[ info ] www.gcan.top/blog/public/page_user_profile_1_help.html [运行时间：0.009426s][吞吐率：106.09req/s] [内存消耗：949.80kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page_user_profile_1_help',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:06+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/page_user_profile_2.html
+[ info ] www.gcan.top/blog/public/page_user_profile_2.html [运行时间：0.009389s][吞吐率：106.51req/s] [内存消耗：949.71kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page_user_profile_2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:08+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/portlet_light.html
+[ info ] www.gcan.top/blog/public/portlet_light.html [运行时间：0.010609s][吞吐率：94.26req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portlet_light',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:09+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/portlet_solid.html
+[ info ] www.gcan.top/blog/public/portlet_solid.html [运行时间：0.010661s][吞吐率：93.80req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portlet_solid',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:11+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/portlet_ajax.html
+[ info ] www.gcan.top/blog/public/portlet_ajax.html [运行时间：0.009492s][吞吐率：105.35req/s] [内存消耗：949.66kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portlet_ajax',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:13+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/portlet_draggable.html
+[ info ] www.gcan.top/blog/public/portlet_draggable.html [运行时间：0.009730s][吞吐率：102.77req/s] [内存消耗：949.70kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portlet_draggable',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:14+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/elements_steps.html
+[ info ] www.gcan.top/blog/public/elements_steps.html [运行时间：0.009585s][吞吐率：104.33req/s] [内存消耗：949.68kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'elements_steps',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:16+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/elements_lists.html
+[ info ] www.gcan.top/blog/public/elements_lists.html [运行时间：0.009885s][吞吐率：101.16req/s] [内存消耗：949.68kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'elements_lists',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:18+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/elements_ribbons.html
+[ info ] www.gcan.top/blog/public/elements_ribbons.html [运行时间：0.010456s][吞吐率：95.64req/s] [内存消耗：949.70kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'elements_ribbons',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:19+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/elements_overlay.html
+[ info ] www.gcan.top/blog/public/elements_overlay.html [运行时间：0.009687s][吞吐率：103.23req/s] [内存消耗：949.70kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'elements_overlay',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:21+08:00 ] 172.17.48.222 69.58.178.59 GET /blog/public/elements_cards.html
+[ info ] www.gcan.top/blog/public/elements_cards.html [运行时间：0.009403s][吞吐率：106.35req/s] [内存消耗：949.68kb] [文件加载：30]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'elements_cards',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gcan.top',
+  'user-agent' => 'Mozilla/5.0 (compatible; ips-agent)',
+  'accept-language' => 'en-us,en;q=0.8',
+  'accept' => 'text/html,text/plain,*/*',
+  'from' => 'wc@verisignlabs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:07:42+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019571s][吞吐率：51.10req/s] [内存消耗：1,923.20kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000341s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 72,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T09:20:23+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.011452s][吞吐率：87.32req/s] [内存消耗：1,179.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:22:13+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.011452s][吞吐率：87.32req/s] [内存消耗：1,179.41kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:23:54+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.012496s][吞吐率：80.03req/s] [内存消耗：1,179.54kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:24:01+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.011433s][吞吐率：87.47req/s] [内存消耗：1,179.59kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:24:13+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.012855s][吞吐率：77.79req/s] [内存消耗：1,179.54kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:32:54+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.053986s][吞吐率：18.52req/s] [内存消耗：1,212.32kb] [文件加载：38]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(/home/wwwroot/www.gcan.top/blog/public/coinlog/firstcny2.log): failed to open stream: Permission denied[/home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php:115]
+---------------------------------------------------------------
+[ 2017-08-04T09:33:36+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.012982s][吞吐率：77.03req/s] [内存消耗：1,177.55kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:34:17+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.012925s][吞吐率：77.37req/s] [内存消耗：1,177.73kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:50:35+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/firstcny
+[ info ] www.gcan.top/blog/public/index/coin/firstcny [运行时间：0.012517s][吞吐率：79.89req/s] [内存消耗：1,157.45kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:59:35+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.211298s][吞吐率：4.73req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T09:59:53+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.339938s][吞吐率：2.94req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T10:00:01+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.295602s][吞吐率：3.38req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T10:00:06+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.323594s][吞吐率：3.09req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T10:00:07+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.286297s][吞吐率：3.49req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T10:00:08+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.306742s][吞吐率：3.26req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T10:00:09+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.347017s][吞吐率：2.88req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T10:00:15+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.315546s][吞吐率：3.17req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T10:00:16+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.312505s][吞吐率：3.20req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T10:00:17+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.310903s][吞吐率：3.22req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T10:00:18+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/test
+[ info ] www.gcan.top/blog/public/index/coin/test [运行时间：0.311960s][吞吐率：3.21req/s] [内存消耗：1,184.20kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->test[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T10:07:20+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/sntcny
+[ info ] www.gcan.top/blog/public/index/coin/sntcny [运行时间：0.271352s][吞吐率：3.69req/s] [内存消耗：1,218.94kb] [文件加载：38]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'sntcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->sntcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(/home/wwwroot/www.gcan.top/blog/public/coinlog/sntcny.log): failed to open stream: No such file or directory[/home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php:80]
+---------------------------------------------------------------
+[ 2017-08-04T10:07:43+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/coin/sntcny
+[ info ] www.gcan.top/blog/public/index/coin/sntcny [运行时间：0.241208s][吞吐率：4.15req/s] [内存消耗：1,219.12kb] [文件加载：38]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'coin',
+    2 => 'sntcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Coin->sntcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(/home/wwwroot/www.gcan.top/blog/public/coinlog/sntcny.log): failed to open stream: Permission denied[/home/wwwroot/www.gcan.top/blog/application/index/controller/Coin.php:85]
+---------------------------------------------------------------
+[ 2017-08-04T11:53:45+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019035s][吞吐率：52.54req/s] [内存消耗：1,913.59kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000322s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 51,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T11:53:48+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.017943s][吞吐率：55.73req/s] [内存消耗：1,913.59kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000370s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000335s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 51,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T11:53:49+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.018551s][吞吐率：53.91req/s] [内存消耗：1,913.59kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000370s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000332s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 51,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T14:40:32+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/
+[ info ] www.gcan.top/blog/public/ [运行时间：0.024698s][吞吐率：40.49req/s] [内存消耗：2,148.08kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000348s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000200s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000259s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-04T14:40:34+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/single_page?cc=22
+[ info ] www.gcan.top/blog/public/index/index/single_page?cc=22 [运行时间：0.021530s][吞吐率：46.45req/s] [内存消耗：2,073.03kb] [文件加载：42]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'single_page',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.gcan.top/blog/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cc' => '22',
+)
+[ info ] [ RUN ] app\index\controller\Index->single_page[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/single_page.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'pc',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000348s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000203s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-04T14:40:39+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.012516s][吞吐率：79.90req/s] [内存消耗：1,200.92kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:40:39+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.026979s][吞吐率：37.07req/s] [内存消耗：1,917.74kb] [文件加载：42]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.gcan.top/blog/public/index/index/firstcny',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000310s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 51,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T14:44:12+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.027233s][吞吐率：36.72req/s] [内存消耗：1,363.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:44:12+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019196s][吞吐率：52.09req/s] [内存消耗：1,917.74kb] [文件加载：42]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.gcan.top/blog/public/index/index/firstcny',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000351s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000321s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 51,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T14:45:17+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013959s][吞吐率：71.64req/s] [内存消耗：1,363.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:45:30+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013983s][吞吐率：71.52req/s] [内存消耗：1,363.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:46:13+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.014111s][吞吐率：70.87req/s] [内存消耗：1,375.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:46:16+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013593s][吞吐率：73.57req/s] [内存消耗：1,205.13kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:46:29+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.016443s][吞吐率：60.82req/s] [内存消耗：1,375.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:46:40+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.014200s][吞吐率：70.42req/s] [内存消耗：1,375.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:47:09+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013977s][吞吐率：71.55req/s] [内存消耗：1,375.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:47:12+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.012274s][吞吐率：81.47req/s] [内存消耗：1,205.13kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:47:19+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.012783s][吞吐率：78.23req/s] [内存消耗：1,205.13kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:47:33+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.012208s][吞吐率：81.91req/s] [内存消耗：1,205.13kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:49:07+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013461s][吞吐率：74.29req/s] [内存消耗：1,363.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501759718; PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:51:06+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/
+[ info ] www.gcan.top/blog/public/ [运行时间：0.026662s][吞吐率：37.51req/s] [内存消耗：2,148.28kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.gcan.top/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/index.html [ array (
+  0 => 'switch',
+  1 => 'account',
+  2 => 'access',
+  3 => 'recent_article_list',
+  4 => 'tag_list',
+  5 => 'article_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000411s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_article` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 4 [ RunTime:0.000363s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT `tag` FROM `gcan_article` [ RunTime:0.000183s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gcan_article` WHERE  `released` = '1' LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_article` WHERE  `released` = '1' ORDER BY create_time desc LIMIT 0,5 [ RunTime:0.000267s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_article',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 29,
+  'filtered' => 10.0,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 4  [Using where; Using filesort]
+[ warn ] SQL:SELECT * FROM `gcan_article` WHERE  `released` = :where_released ORDER BY create_time desc LIMIT 0,5  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2017-08-04T14:52:56+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013746s][吞吐率：72.75req/s] [内存消耗：1,339.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:53:00+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.011913s][吞吐率：83.94req/s] [内存消耗：1,193.13kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:53:10+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013141s][吞吐率：76.10req/s] [内存消耗：1,339.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:53:46+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013271s][吞吐率：75.35req/s] [内存消耗：1,339.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:54:37+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.014826s][吞吐率：67.45req/s] [内存消耗：1,375.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:54:43+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013233s][吞吐率：75.57req/s] [内存消耗：1,205.13kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:54:48+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013922s][吞吐率：71.83req/s] [内存消耗：1,375.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T14:55:47+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013857s][吞吐率：72.17req/s] [内存消耗：1,363.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T15:00:07+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.014563s][吞吐率：68.67req/s] [内存消耗：1,363.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T15:04:04+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.018993s][吞吐率：52.65req/s] [内存消耗：1,916.02kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000317s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T15:04:29+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.018410s][吞吐率：54.32req/s] [内存消耗：1,916.33kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000346s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T15:04:38+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.022911s][吞吐率：43.65req/s] [内存消耗：1,916.17kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000441s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000336s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T15:05:03+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019447s][吞吐率：51.42req/s] [内存消耗：1,969.63kb] [文件加载：43]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000369s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ error ] [0]variable type error： array[/home/wwwroot/www.gcan.top/blog/thinkphp/library/think/Response.php:315]
+---------------------------------------------------------------
+[ 2017-08-04T15:05:33+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019850s][吞吐率：50.38req/s] [内存消耗：1,976.51kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000414s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000351s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php:102]
+---------------------------------------------------------------
+[ 2017-08-04T15:05:40+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019397s][吞吐率：51.55req/s] [内存消耗：1,976.51kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000317s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php:102]
+---------------------------------------------------------------
+[ 2017-08-04T15:06:04+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019417s][吞吐率：51.50req/s] [内存消耗：1,976.41kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000365s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000344s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php:102]
+---------------------------------------------------------------
+[ 2017-08-04T15:06:12+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.020035s][吞吐率：49.91req/s] [内存消耗：1,976.41kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000330s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php:102]
+---------------------------------------------------------------
+[ 2017-08-04T15:06:20+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019320s][吞吐率：51.76req/s] [内存消耗：1,976.41kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000406s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000317s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php:102]
+---------------------------------------------------------------
+[ 2017-08-04T15:06:33+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019446s][吞吐率：51.42req/s] [内存消耗：1,976.41kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000324s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php:102]
+---------------------------------------------------------------
+[ 2017-08-04T15:06:54+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019205s][吞吐率：52.07req/s] [内存消耗：1,976.41kb] [文件加载：45]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000350s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000321s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php:102]
+---------------------------------------------------------------
+[ 2017-08-04T15:07:19+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.019542s][吞吐率：51.17req/s] [内存消耗：1,969.82kb] [文件加载：43]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000354s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000326s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+[ error ] [0]variable type error： array[/home/wwwroot/www.gcan.top/blog/thinkphp/library/think/Response.php:315]
+---------------------------------------------------------------
+[ 2017-08-04T15:09:58+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.012557s][吞吐率：79.64req/s] [内存消耗：1,201.07kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T15:10:43+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.012624s][吞吐率：79.21req/s] [内存消耗：1,201.07kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T15:11:32+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013372s][吞吐率：74.78req/s] [内存消耗：1,363.30kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T15:12:18+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.014448s][吞吐率：69.21req/s] [内存消耗：1,363.30kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T15:14:00+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013616s][吞吐率：73.44req/s] [内存消耗：1,363.37kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T15:14:00+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.018242s][吞吐率：54.82req/s] [内存消耗：1,920.38kb] [文件加载：42]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.gcan.top/blog/public/index/index/firstcny',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000333s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T15:14:12+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.012181s][吞吐率：82.10req/s] [内存消耗：1,200.95kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T15:14:12+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.017736s][吞吐率：56.38req/s] [内存消耗：1,920.20kb] [文件加载：42]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.gcan.top/blog/public/index/index/firstcny',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000313s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T15:38:16+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.012065s][吞吐率：82.88req/s] [内存消耗：1,200.95kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T15:38:16+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.018503s][吞吐率：54.05req/s] [内存消耗：1,920.20kb] [文件加载：42]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.gcan.top/blog/public/index/index/firstcny',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000348s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000349s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T15:38:32+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013293s][吞吐率：75.23req/s] [内存消耗：1,363.18kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-04T15:38:33+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny_trade_msg
+[ info ] www.gcan.top/blog/public/index/index/firstcny_trade_msg [运行时间：0.018461s][吞吐率：54.17req/s] [内存消耗：1,920.20kb] [文件加载：42]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny_trade_msg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.gcan.top/blog/public/index/index/firstcny',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny_trade_msg[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000338s ] mysql:dbname=gcan_sql;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gcan_firstcny` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `gcan_firstcny` [ RunTime:0.000314s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'gcan_firstcny',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 61,
+  'filtered' => 100.0,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[ 2017-08-04T15:39:47+08:00 ] 172.17.48.222 60.29.18.50 GET /blog/public/index/index/firstcny
+[ info ] www.gcan.top/blog/public/index/index/firstcny [运行时间：0.013356s][吞吐率：74.87req/s] [内存消耗：1,363.18kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/www.gcan.top/blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'firstcny',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=loiv4vtq4jvtbsj5rsthnjvfs0; Hm_lvt_e259303fc49d5b01efef69eb352b749d=1501726377,1501759718; Hm_lpvt_e259303fc49d5b01efef69eb352b749d=1501829467',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.gcan.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->firstcny[ /home/wwwroot/www.gcan.top/blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/www.gcan.top/blog/public/../application/index/view/index/firstcny.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

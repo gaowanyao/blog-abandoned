@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+    <meta charset="utf-8" />
+
+
+    <include file="Public/meta"/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN THEME GLOBAL STYLES -->
+    <link href="__STATIC__/assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="__STATIC__/assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME GLOBAL STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="__STATIC__/assets/pages/css/blog.min.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL STYLES -->
+    <!-- BEGIN THEME LAYOUT STYLES -->
+    <link href="__STATIC__/assets/layouts/layout3/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="__STATIC__/assets/layouts/layout3/css/themes/default.min.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="__STATIC__/assets/layouts/layout3/css/custom.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME LAYOUT STYLES -->
+    <link rel="shortcut icon" href="__STATIC__/gcan.ico" /> </head>
+<!-- END HEAD -->
+
+<body class="page-container-bg-solid">
+<div class="page-wrapper">
+
+            <!-- BEGIN HEADER -->
+            {include file="Public/header"}
+            <!-- END HEADER -->
+
+    <div class="page-wrapper-row full-height">
+        <div class="page-wrapper-middle">
+            <!-- BEGIN CONTAINER -->
+            <div class="page-container">
+                <!-- BEGIN CONTENT -->
+                <div class="page-content-wrapper">
+                    <!-- BEGIN CONTENT BODY -->
+                    <!-- BEGIN PAGE HEAD-->
+                    <div class="page-head">
+                        <div class="container">
+                            <!-- BEGIN PAGE TITLE -->
+                            <div class="page-title">
+                                <h1>Single Blog
+                                    <small>Blog for gcan</small>
+                                </h1>
+                            </div>
+                            <!-- END PAGE TITLE -->
+                            <!-- BEGIN PAGE TOOLBAR -->
+                            <!-- END PAGE TOOLBAR -->
+                        </div>
+                    </div>
+                    <!-- END PAGE HEAD-->
+                    <!-- BEGIN PAGE CONTENT BODY -->
+                    <div class="page-content">
+                        <div class="container">
+                            <!-- BEGIN PAGE BREADCRUMBS -->
+                            <ul class="page-breadcrumb breadcrumb">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                    <i class="fa fa-circle"></i>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                    <i class="fa fa-circle"></i>
+                                </li>
+                                <li>
+                                    <span>{$article.title}</span>
+                                </li>
+                            </ul>
+                            <!-- END PAGE BREADCRUMBS -->
+                            <!-- BEGIN PAGE CONTENT INNER -->
+                            <div class="page-content-inner">
+                                <div class="blog-page blog-content-2">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <div class="blog-single-content bordered blog-container">
+                                                <div class="blog-single-head">
+                                                    <h1 class="blog-single-head-title">{$article.title}</h1>
+                                                    <div class="blog-single-head-date">
+                                                        <i class="icon-calendar font-blue"></i>
+                                                        <a href="javascript:;">
+                                                            <?php
+
+                                                                    $time = strtotime($article['create_time']);
+                                                                    $time = date("F j, Y",$time);
+                                                                    echo $time;
+
+                                                               ?>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <!--<div class="blog-single-img">-->
+                                                    <!--<img src="<?php if($pc == 'pc'){echo '__STATIC__/assets/pages/img/page_general_search/5.jpg';}else{ echo '__STATIC__/img/kaola.jpg';} ?>" />-->
+                                                <!--</div>-->
+
+
+                                                <div class="blog-single-desc">
+                                                    <?php
+
+                                                  echo file_get_contents(ROOT_PATH."public/static/article/".$article['content'].".html");
+
+
+                                                ?>
+                                                </div>
+                                                <div class="blog-single-foot">
+                                                    <ul class="blog-post-tags">
+
+                                                        <?php
+
+                                                    $tag = $article['tag'];
+                                                    $arr = explode(",",$tag);
+
+                                                    $str = "";
+                                                    for($i=0;$i<count($arr);$i++){
+                                                        if($arr[$i] == ''){}else{
+                                                            $str .= "<li class='uppercase'>
+                                                                                 <a href='/blog/public/index/index/tag?tag=".$arr[$i]."'>".$arr[$i]."</a>
+                                                                            </li>";
+                                                                 }
+                                                            }
+                                                        echo $str;
+
+                                                        ?>
+
+
+                                                    </ul>
+                                                </div>
+
+
+
+                                                {include file="Public/blog_comments" }
+
+
+
+                                            </div>
+                                        </div>
+
+
+                                        {include file="Public/blog_right" }
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END PAGE CONTENT INNER -->
+                        </div>
+                    </div>
+                    <!-- END PAGE CONTENT BODY -->
+                    <!-- END CONTENT BODY -->
+                </div>
+                <!-- END CONTENT -->
+                <!-- BEGIN QUICK SIDEBAR -->
+                {include file="Public/quick_sidebar"}
+
+
+
+                <!-- END QUICK SIDEBAR -->
+            </div>
+            <!-- END CONTAINER -->
+        </div>
+    </div>
+
+
+    {include file="Public/footer"}
+</div>
+<!-- BEGIN QUICK NAV -->
+{include file="Public/quick_nav"}
+
+<!-- END QUICK NAV -->
+
+
+
+<!--[if lt IE 9]>
+<script src="__STATIC__/assets/global/plugins/respond.min.js"></script>
+<script src="__STATIC__/assets/global/plugins/excanvas.min.js"></script>
+<script src="__STATIC__/assets/global/plugins/ie8.fix.min.js"></script>
+<![endif]-->
+<!-- BEGIN CORE PLUGINS -->
+<script src="__STATIC__/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="__STATIC__/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="__STATIC__/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+<script src="__STATIC__/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="__STATIC__/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="__STATIC__/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN THEME GLOBAL SCRIPTS -->
+<script src="__STATIC__/assets/global/scripts/app.min.js" type="text/javascript"></script>
+<!-- END THEME GLOBAL SCRIPTS -->
+<!-- BEGIN THEME LAYOUT SCRIPTS -->
+<script src="__STATIC__/assets/layouts/layout3/scripts/layout.min.js" type="text/javascript"></script>
+<script src="__STATIC__/assets/layouts/layout3/scripts/demo.min.js" type="text/javascript"></script>
+<script src="__STATIC__/assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+<script src="__STATIC__/assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+<!-- END THEME LAYOUT SCRIPTS -->
+</body>
+
+</html>
